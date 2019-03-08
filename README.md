@@ -17,7 +17,7 @@ docker run -d -v /$(pwd)/:/home/jovyan/work \
 ## References
 
 The code is from the book "Deep Learning with Python" from Francois Chollet, 
-the code from the book is  here: https://github.com/fchollet/deep-learning-with-python-notebooks
+the code from the book can be found here: https://github.com/fchollet/deep-learning-with-python-notebooks
 
 The docker image comes from gaarv: https://hub.docker.com/r/gaarv/jupyter-keras/
 
