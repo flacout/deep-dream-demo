@@ -9,8 +9,10 @@ docker run -d -v /$(pwd)/:/home/jovyan/work \
            -p 8888:8888 gaarv/jupyter-keras start-notebook.sh --NotebookApp.token=''
 ```
 - Choose a few picture you would like to modify, to experiment with the algorithm.
-- Optionaly you can read article to get familiar with the topics:
+- Optionaly you can read some articles to get familiar with the topics:
+
 https://medium.com/@samuellynnevans/first-weeks-of-andrew-ng-beginners-steps-for-gradient-descent-and-the-cost-function-in-univariate-a2016a6f6258
+
 https://medium.com/@tifa2up/image-classification-using-deep-neural-networks-a-beginner-friendly-approach-using-tensorflow-94b0a090ccd4
 
 ## Run the environment (tensorflow, keras, jupyter-notebook):
