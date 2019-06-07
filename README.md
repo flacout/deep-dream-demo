@@ -17,7 +17,9 @@ https://medium.com/@tifa2up/image-classification-using-deep-neural-networks-a-be
 
 ## Run the environment (tensorflow, keras, jupyter-notebook):
 
-1. Run a docker image with python3, tensorflow, keras, and jupyter-notebook installed:
+1. git clone the repository `$ git clone https://github.com/flacout/deep-dream-demo.git`
+2. enter the repository `$ cd deep-dream-demo`
+3. Run a docker image with python3, tensorflow, keras, and jupyter-notebook installed:
 
 ```
 docker run -d -v /$(pwd)/:/home/jovyan/work \
@@ -25,9 +27,9 @@ docker run -d -v /$(pwd)/:/home/jovyan/work \
 ```
 
 
-2. Go to localhost:8888 in a browser
-3. git clone the https://github.com/flacout/deep-dream-demo.git repository in your current working directory
-4. In jupyter-notebook open the DeepDream.ipynb file
+4. Go to localhost:8888 in a browser.
+5. Enter the directory `work`, you should see the current directory of your local machine.
+6. Open the DeepDream.ipynb file.
 
 
 ## References
